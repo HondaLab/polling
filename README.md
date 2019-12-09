@@ -28,6 +28,7 @@ And it takes double time to recieve every data.
 This situation brings huge delay time in the sending data.
 
 ## Speed of recieving should be faster than that of sending data
+This is a simple principle in order to realize the polling that is a real-time property.
 
 
 
