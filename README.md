@@ -5,7 +5,7 @@ In the real-time communication of data, it has to be achieved sending data in th
 
 ## In general speaking, 
 it takes a time to sensing an environment and sending the obtained data.
-For example, in the case of human beging, sensing time delay between sensing and movement
+For example, in the case of human beging, time delay between sensing and movement
 is about 0.2 second.
 Shorter delay-time brings a better responce to realize the real-time movement or other reactions.
 
