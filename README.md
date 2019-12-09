@@ -1,3 +1,3 @@
 # polling
 
-[wiki|https://en.wikipedia.org/wiki/Polling_(computer_science)]
+[https://en.wikipedia.org/wiki/Polling_(computer_science)|wiki]
