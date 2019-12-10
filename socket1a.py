@@ -10,9 +10,9 @@ import socket
 # アドレスとポート
 # アドレスはIPアドレスを直接していしても良いが、
 # /etc/hostsに登録してあるホスト名を用いることもできる
-ROBOT_ADDR = '172.16.1.xxx' # 
+ADDR = '172.16.1.xxx' # 
 # port番号は32768 -- 60999 がカスタム用途のプライベート番号(cf. /proc/sys/net/ipv4/ip_local_port_range)
-MPU9150_PORT = 50001 # 慣性センサ用のポート番号
+PORT = 50001 # センサ用のポート番号
 
 class UDP_Send(): # send list data to (addr,port)
    def __init__(self,addr,port):
