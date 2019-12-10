@@ -42,4 +42,7 @@ Because of the receiving module has a speed faster than 1000Hz in this case.
 This is a reason why we should use nonblocking receive in order not to be blocked
 for other faster communication of data.
 
-See [Wikipedia](https://en.wikipedia.org/wiki/Polling_(computer_science)) as a reference.
+Continuations are described in [polling wiki](https://github.com/HondaLab/polling/wiki).
+
+
+See also [Wikipedia](https://en.wikipedia.org/wiki/Polling_(computer_science)) as a reference.
