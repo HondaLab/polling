@@ -5,7 +5,7 @@ import socket1a as sk
 
 if __name__=='__main__':
 
-   udp = sk.UDP_Send(sk.ROBOT_ADDR, sk.MPU9150_PORT)
+   udp = sk.UDP_Send(sk.ADDR, sk.PORT)
    data=[1] # 送信データ用のリスト
    i=0 
    start=time.time()
