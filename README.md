@@ -29,7 +29,8 @@ This situation brings huge delay time in the sending data.
 
 ## Speed of recieving should be faster than that of sending data
 This is a simple principle in order to realize the polling that is a real-time property.
-
+An example is shown in following figure in which some polling are used simultaneously.
 ![corabo2](https://github.com/HondaLab/polling/blob/master/corabo2.jpeg)
+
 
 See [Wikipedia](https://en.wikipedia.org/wiki/Polling_(computer_science)) as a reference.
