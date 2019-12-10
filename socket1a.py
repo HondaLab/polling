@@ -35,10 +35,10 @@ class UDP_Send(): # send list data to (addr,port)
       self.sock.sendto(string.encode('utf-8'),(self.addr,self.port))
       return 0
 
-class UDP_Recv(): # Recieve list data from (addr,port)
+class UDP_Recv(): 
    def __init__(self,addr,port):
       self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-      self.sock.bind((addr,port))
+      self.sock.bind((addr,port)) # addrは自分のマシンのアドレス．portはSend側で使うものと共通する番号
       self.sock.setblocking(0) # ポーリングのためのNoblocking受信
 
    def recv(self):
