@@ -15,8 +15,8 @@ This means that a short sending time is needed to realize the real-time intellig
 ## Polling to realize the real-time sending data
 It is simple to realize the polling in sending data.
 The speed of recieving data should be faster than that of sensing.
-For example if it would take 0.1 sec. to sensing environment, the program is able to send data
-about 10 time in a second.
+For example if it would take 0.1 sec. to sense environment, the program is able to send data
+about 10 times in a second.
 This is called 10 Hz or 10 fps to send data.
 In this cace, if a program recieves the data 10 time in a second, that is 10 Hz in recieving data,
 every data are received in the same timing.
