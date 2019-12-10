@@ -31,6 +31,15 @@ This situation brings huge delay time in the sending data.
 This is a simple principle in order to realize the polling that is a real-time property.
 An example is shown in following figure in which some polling are used simultaneously.
 ![corabo2](https://github.com/HondaLab/polling/blob/master/corabo2.jpeg)
+For example acceleration and gyro sensor send data in about 1000Hz.
+So the speed of receiving the data should be faster than 1000Hz on sensory motor mapping module.
 
+## Nonblocking recieve 
+On the other hand, ultrasonic sensor has only 14Hz as its speed of sensing.
+Basically this speed becomes a speed of sendign the data of ultrasonic sensor.
+It is obvious that this speed is considerably slower than that of receiving module.
+Because of the receiving module has a speed faster than 1000Hz in this case.
+This is a reason why we should use nonblocking receive in order not to be blocked
+for other faster communication of data.
 
 See [Wikipedia](https://en.wikipedia.org/wiki/Polling_(computer_science)) as a reference.
