@@ -4,8 +4,8 @@ from matplotlib import pyplot as plt
 import time
 import numpy as np
 
-print(sk.BASE_ADDR, sk.GYRO_PORT)
-udp=sk.UDP_Recv(sk.BASE_ADDR, sk.GYRO_PORT)
+print(sk.ADDR, sk.PORT)
+udp=sk.UDP_Recv(sk.ADDR, sk.PORT)
 
 x=[0.0 for i in range(100)]
 y=[0.0 for i in range(100)]
