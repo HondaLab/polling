@@ -11,7 +11,7 @@ import socket
 
 if __name__=='__main__':
 
-   udp = sk.UDP_Recv(sk.ROBOT_ADDR, sk.MPU9150_PORT)
+   udp = sk.UDP_Recv(sk.ADDR, sk.PORT)
    # ここでは、socket1a内に登録してあるアドレスとポートを用いたが
    # 別のものを指定してももちろん機能する
    data=[1]
