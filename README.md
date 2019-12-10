@@ -35,7 +35,7 @@ An example is shown in following figure in which some polling are used simultane
 For example acceleration and gyro sensor send data in about 1000Hz.
 So the speed of receiving the data should be faster than 1000Hz on sensory motor mapping module.
 
-## Nonblocking recieve 
+## Noblocking recieve 
 On the other hand, ultrasonic sensor has only 14Hz as its speed of sensing.
 Basically this speed becomes a speed of sendign the data of ultrasonic sensor.
 It is obvious that this speed is considerably slower than that of receiving module.
