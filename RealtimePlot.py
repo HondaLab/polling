@@ -1,11 +1,11 @@
 #
-import sock4robot3a as s4r
+import socket1a as sk
 from matplotlib import pyplot as plt
 import time
 import numpy as np
 
-print(s4r.BASE_ADDR, s4r.GYRO_PORT)
-udp=s4r.UDP_Recv(s4r.BASE_ADDR, s4r.GYRO_PORT)
+print(sk.BASE_ADDR, sk.GYRO_PORT)
+udp=sk.UDP_Recv(sk.BASE_ADDR, sk.GYRO_PORT)
 
 x=[0.0 for i in range(100)]
 y=[0.0 for i in range(100)]
