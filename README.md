@@ -31,6 +31,7 @@ This situation brings huge delay time in the sending data.
 This is a simple principle in order to realize the polling that is a real-time property.
 An example is shown in following figure in which some polling are used simultaneously.
 ![corabo2](https://github.com/HondaLab/polling/blob/master/corabo2.jpeg)
+
 For example acceleration and gyro sensor send data in about 1000Hz.
 So the speed of receiving the data should be faster than 1000Hz on sensory motor mapping module.
 
