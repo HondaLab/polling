@@ -40,7 +40,7 @@ On the other hand, ultrasonic sensor has only 14Hz as its speed of sensing.
 Basically this speed becomes a speed of sendign the data of ultrasonic sensor.
 It is obvious that this speed is considerably slower than that of receiving module.
 Because of the receiving module has a speed faster than 1000Hz in this case.
-This is a reason why we should use nonblocking receive in order not to be blocked
+This is a reason why we should use noblocking receive in order not to be blocked
 for other faster communication of data.
 
 Continuations are described in [polling wiki](https://github.com/HondaLab/polling/wiki).
