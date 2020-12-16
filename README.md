@@ -53,7 +53,7 @@ See also [Wikipedia](https://en.wikipedia.org/wiki/Polling_(computer_science)) a
 * [pollingとは](https://github.com/HondaLab/polling/blob/master/README.md)
 * [wpaによるWi-Fi接続](https://github.com/HondaLab/Robot-Intelligence/wiki/wifi%E3%81%AE%E8%A8%AD%E5%AE%9A)
 * [Noblocking UDP](https://github.com/HondaLab/Robot-Intelligence/wiki/Python%E3%81%A7socket%E9%80%9A%E4%BF%A1%E3%81%99%E3%82%8B)
-* [リアルタイムにデータを可視化する](リアルタイムにデータを可視化する)
+* [リアルタイムにデータを可視化する](https://github.com/HondaLab/polling/wiki/%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%AB%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%8F%AF%E8%A6%96%E5%8C%96%E3%81%99%E3%82%8B)
 * [Debian note](https://github.com/HondaLab/Robot-Intelligence/wiki/Debian-note)
 * [Python note](https://github.com/HondaLab/Robot-Intelligence/wiki/Python-note)
 
